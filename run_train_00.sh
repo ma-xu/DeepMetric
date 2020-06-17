@@ -22,7 +22,8 @@ if_exist_mkdir result
 if_exist_mkdir result/${LOSS}
 if_exist_mkdir result/${LOSS}/${DATA}
 
-NET=BN-Inception
+#NET=BN-Inception
+NET=resnet50
 DIM=512
 ALPHA=40
 LR=1e-5
