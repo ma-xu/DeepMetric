@@ -2,7 +2,7 @@
 DATA=cub
 DATA_ROOT=data
 Gallery_eq_Query=True
-LOSS=Weight
+LOSS=HardMining
 CHECKPOINTS=ckps
 R=.pth.tar
 
