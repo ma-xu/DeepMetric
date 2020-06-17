@@ -20,7 +20,7 @@ class MyData(data.Dataset):
         # Initialization data path and train(gallery or query) txt path
 
         if root is None:
-            root = "data/inshop"
+            root = "data/InShopClothes"
             label_txt = os.path.join(root, 'train.txt')
 
         normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],

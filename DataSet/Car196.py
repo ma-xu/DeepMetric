@@ -18,7 +18,7 @@ class Cars196:
         if transform is None:
             transform_Dict = Generate_transform_Dict(origin_width=origin_width, width=width, ratio=ratio)
         if root is None:
-            root = 'data/cars196/'
+            root = 'data/Cars196/'
 
         train_txt = os.path.join(root, 'train.txt')
         test_txt = os.path.join(root, 'test.txt')
