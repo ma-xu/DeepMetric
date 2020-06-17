@@ -112,7 +112,7 @@ class CUB_200_2011:
         print('width: \t {}'.format(width))
         transform_Dict = Generate_transform_Dict(origin_width=origin_width, width=width, ratio=ratio)
         if root is None:
-            root = "data/CUB_200_2011/"
+            root = "data/cub200/"
 
         train_txt = os.path.join(root, 'train.txt')
         test_txt = os.path.join(root, 'test.txt')

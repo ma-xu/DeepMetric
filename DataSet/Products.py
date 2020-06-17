@@ -11,7 +11,7 @@ class Products:
     def __init__(self, width=224, origin_width=256, ratio=0.16, root=None, transform=None):
         transform_Dict = Generate_transform_Dict(origin_width=origin_width, width=width, ratio=ratio)
         if root is None:
-            root = '../data/Products'
+            root = 'data/stanford_products'
         
         train_txt = osp.join(root, 'train.txt')
         test_txt = osp.join(root, 'test.txt')
